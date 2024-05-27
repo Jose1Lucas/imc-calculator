@@ -1,8 +1,10 @@
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 500px) { 
 
     * {
-        scale: 95%;
+    margin-top: 0 !important;
+    scale: 95%;
     }
+    
 }
 
 .ContainerInf {
