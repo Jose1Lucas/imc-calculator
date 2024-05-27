@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang='pt-BR'>
+
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMC</title>
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <script src="./src/Js/imc.js"></script>
+
+</head>
+
+<body>
+  <h1>
+    Índice de Massa Corporal</h1>
+  <div><button id="Dark" title="Modo escuro"><img id="Moon" src="./src/imagens/darkMode.png" alt="icone do modo noturno"
+        onClick="DarkMode()"></button>
+  </div>
+  <br>
+  <div class="ContainerInf">
+
+    <form>
+      <label for="peso">Peso:</label> <input type="text" id="peso" name="peso" placeholder="ex: 70.8"><br>
+      <label for="altura">Altura:</label> <input type="text" id="altura" name="altura" placeholder="ex: 1.70"><br>
+
+    </form>
+
+    <h2>Seu IMC é:</h2>
+    <br>
+    <p id="resultado" title="Resultado">0</p>
+
+  </div>
+  <br>
+  <button type="button" onClick="calculaIMC()" id="botaoResultado">Enviar</button>
+
+  <div class="TabelaInt">
+    <br>
+    <table>
+      <tr style="background-color: rgba(165, 42, 157, 0.7);">
+        <td style="color:#fff" colspan="2" title="Tabela de interpretação (aproximada) do IMC"> <a title="O que é IMC?"
+            id="saibaMais" href="https://pt.wikipedia.org/wiki/%C3%8Dndice_de_massa_corporal">?</a>TABELA</td>
+      </tr>
+      <tr>
+        <td><b>IMC</b></td>
+        <td><b>Classificação</b></td>
+      </tr>
+      <tr>
+        <td> abaixo de 18,5</td>
+        <td> Abaixo do Normal </td>
+      </tr>
+
+      <tr>
+        <td> 18,5 - 25</td>
+        <td> Faixa saudável </td>
+      </tr>
+      <tr>
+        <td> 25 - 30</td>
+        <td> Acima do peso</td>
+      </tr>
+      <tr>
+        <td> 30 - 35 </td>
+        <td> Obesidade Grau I </td>
+      </tr>
+      <tr>
+        <td> 35 - 40</td>
+        <td> Obesidade Grau II </td>
+      </tr>
+      <tr>
+        <td> Acima de 40</td>
+        <td>Obesidade Grau III </td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+<html>
