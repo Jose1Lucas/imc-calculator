@@ -1,6 +1,14 @@
+@media screen and (max-width: 600px) { 
+
+    * {
+        scale: 95%;
+    }
+}
 .ContainerInf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding-top: 2%;
 }
 
 body {
