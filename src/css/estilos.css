@@ -38,6 +38,7 @@ body.dark-mode h2 {
 }
 
 #dark {
+    cursor: pointer;
     border: solid, 3px, rgba(165, 42, 157, 0.7);
     border-radius: 5px;
     height: 25px !important;
@@ -119,6 +120,7 @@ form {
 }
 
 #botaoresultado {
+    cursor: pointer;
     border: none;
     padding: 5px 9px;
     border: solid, 3px, rgba(165, 42, 157, 0.7);
@@ -131,6 +133,7 @@ form {
 }
 
 #saibamais {
+    cursor: pointer;
     float: left;
     font-size: 15px;
     color: #fff;
