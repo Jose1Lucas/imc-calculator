@@ -16,28 +16,28 @@
 
     <br>
 
-    <h1>Índice de Massa Corporal</h1>
+    <h1>Body Mass Index</h1>
 
     <br>
 
-    <button id="dark" title="Modo escuro"><img id="moon" src="./src/imagens/darkMode.png" alt="icone do modo noturno"
+    <button id="dark" title="Moon mode"><img id="moon" src="./src/imagens/darkMode.png" alt="icon moon mode"
         onClick="DarkMode()"></button>
 
     <div class="itemf">
 
       <form>
-        <label for="peso">Peso:</label> <input type="text" id="peso" name="peso" placeholder="ex: 70.8"><br>
-        <label for="altura">Altura:</label> <input type="text" id="altura" name="altura" placeholder="ex: 1.70"><br>
+        <label for="peso">Weight:</label> <input type="text" id="peso" name="peso" placeholder="ex: 70.8"><br>
+        <label for="altura">Height:</label> <input type="text" id="altura" name="altura" placeholder="ex: 1.70"><br>
 
       </form>
 
     </div>
 
-    <h2>SEU IMC:</h2>
+    <h2>YOUR RESULT:</h2>
     <br>
     <p id="resultado" title="Resultado">0</p>
     <br>
-    <button type="button" onClick="calculaIMC()" id="botaoresultado" title="Calcule o IMC">Enviar</button>
+    <button type="button" onClick="calculaIMC()" id="botaoresultado" title="Calcule o IMC">SEND</button>
     <br>
 
     <div class="tabela">
@@ -46,36 +46,36 @@
       <tr style="background-color: rgba(56, 56, 56, 0.5);">
           <td style="color:#fff" colspan="2" title="Tabela de interpretação (aproximada) do IMC"> <a
               title="O que é IMC?" id="saibamais"
-              href="https://pt.wikipedia.org/wiki/%C3%8Dndice_de_massa_corporal">?</a>TABELA</td>
+              href="https://pt.wikipedia.org/wiki/%C3%8Dndice_de_massa_corporal">?</a>TABEL</td>
         </tr>
         <tr>
           <td><b>IMC</b></td>
-          <td><b>Classificação</b></td>
+          <td><b>Classification</b></td>
         </tr>
         <tr>
-          <td> abaixo de 18,5</td>
-          <td> Abaixo do Normal </td>
+          <td> under 18.5</td>
+          <td> Below Normal </td>
         </tr>
 
         <tr>
           <td> 18,5 - 25</td>
-          <td> Faixa saudável </td>
+          <td> Healthy range </td>
         </tr>
         <tr>
           <td> 25 - 30</td>
-          <td> Acima do peso</td>
+          <td> Overweight </td>
         </tr>
         <tr>
           <td> 30 - 35 </td>
-          <td> Obesidade Grau I </td>
+          <td> Obesity Grade I </td>
         </tr>
         <tr>
           <td> 35 - 40</td>
-          <td> Obesidade Grau II </td>
+          <td> Obesity Grade II</td>
         </tr>
         <tr>
-          <td> Acima de 40</td>
-          <td>Obesidade Grau III </td>
+          <td> Over 40</td>
+          <td>Obesity Grade III</td>
         </tr>
       </table>
 
